@@ -1,42 +1,7 @@
-#--------------------• USER AGENT FOR HOST METHOD •--------------------#
 def ____R__A_W__():
     version=random.choice(["14","15","10","13","7.0.0","7.1.1","9","12","11","9.0","8.0.0","7.1.2","7.0","4","5","4.4.2","5.1.1","6.0.1","9.0.1"])
-    model=random.choice(["SM-T835","SM-S901U","SM-S134DL","SM-J250F","SM-A217F","SM-A326B","SM-A125F","SM-A720F","SM-A326U","SM-G532M","SM-J410G","SM-A205GN","SM-A205GN","SM-A505GN","SM-G930F","SM-J210F","SM-N9005","SM-J210F"])
-    build = random.choice(['MMB29Q','R16NW','LRX22C','R16NW','KTU84P','JLS36C','NJH47F','PPR1.180610.011','QP1A.190711.020','NRD90M','RP1A.200720.012','M1AJB','MMB29T'])
+    model=random.choice(["SM-T835","SM-S901U","SM-S134DL","SM-J250F","SM-A217F","SM-A326B","SM-A125F","SM-A720F","SM-A326U","SM-G532M","SM-J410G","SM-A205GN","SM-A205GN","SM-A505GN","SM-G930F","SM-J210F","SM-N9005","SM-J210F",'SM-T560NU','SM-X818U','SM-A826S','SM-T975','SM-T560NU','SM-X810','SM-X810','SM-T820','SM-A156B','SM-T547U','SM-T710','SM-T860','SM-T865','SM-T860','SM-T385','SM-M356B','SM-X610','SM-X808U','SM-X700','SM-T867U'])
+    build = random.choice(['MMB29Q','R16NW','LRX22C','R16NW','KTU84P','JLS36C','NJH47F','PPR1.180610.011','QP1A.190711.020','NRD90M','RP1A.200720.012','M1AJB','MMB29T','NMF26X','UP1A.231005.007','UP1A.231005.007','SP1A.210812.016','NMF26X','UP1A.231005.007','PPR1.180610.011','PPR1.180610.011','QP1A.190711.020','NRD90M','RP1A.200720.012','SP2A.220305.013','QP1A.190711.020','PPR1.180610.011'])
     ver = str(random.choice(range(77, 577)))
     ver2 = str(random.choice(range(57, 77)))
-    ua l= f'''Mozilla/5.0 (Linux; Android {version}; {model} Build/{build}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{ver2}.0.{ver}.49 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/507.0.0.66.49;IABMV/1;]'''
-    
-    version = random.choice([
-        "14", "15", "10", "13", "7.0.0", "7.1.1", "9", "12", "11", 
-        "9.0", "8.0.0", "7.1.2", "7.0", "4", "5", "4.4.2", "5.1.1", 
-        "6.0.1", "9.0.1"
-    ])
-    
-    model = random.choice([
-        "Infinix X650", "Infinix X688C", "Infinix X682B", "Infinix X6811", "Infinix X6815", 
-        "Infinix X670", "Infinix X689", "Infinix X683", "Infinix X657", "Infinix X663", 
-        "Infinix X604", "Infinix X573", "Infinix X559C", "Infinix X6831", "Infinix X612" ])
-    
-    build = random.choice([
-        'MMB29Q','R16NW','LRX22C','KTU84P','JLS36C','NJH47F',
-        'PPR1.180610.011','QP1A.190711.020','NRD90M',
-        'RP1A.200720.012','M1AJB','MMB29T'])
-    
-    ver = str(random.randint(77, 576))
-    ver2 = str(random.randint(57, 76)) 
-    ual1 = f'''Mozilla/5.0 (Linux; Android  {version}; {model} Build/{build}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{ver2}.0.{ver}.95 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/504.0.0.69.64;]'''    
-
-    facebook_version = f"{random.randint(10,450)}.{random.randint(0,0)}.{random.randint(0,9)}.{random.randint(1,40)}.{random.randint(10,450)}"
-    fbbv = str(random.randint(00000000,99999999))
-    mbvs = str(random.randint(000000,999999))
-    fbrv = str(random.randint(000000000,999999999))
-    density = random.choice(['2.0', '2.5', '3.0'])
-    width = random.choice(["720", "1080", "1280"])
-    height = random.choice(["720", "1080", "1280", "1440", "1920"])
-    version = random.choice(['9', '10', '11', '12'])
-    model = random.choice(['CPH1114','CPH1235','CPH1451','CPH1615','CPH1664','CPH1869','CPH1929','CPH1985','CPH2048','CPH2068','CPH2107','CPH2238','CPH2261','CPH2331','CPH2332','CPH2351','CPH2381','CPH2389','CPH2399','CPH2401','CPH2409','CPH2411','CPH2413','CPH2415','CPH2417','CPH2419','CPH2423','CPH2447','CPH2449','CPH2451','CPH2459','CPH2465','CPH2467','CPH2469','CPH2487','CPH2491','CPH2493','CPH2499','CPH2513','CPH2515','CPH2519','CPH2521','CPH2523','CPH2525','CPH2529','CPH2551','CPH2553','CPH2557','CPH2569','CPH2579','CPH2581','CPH2583','CPH2589','CPH2591','CPH2599','CPH2607','CPH2609','CPH2611','CPH2617','CPH2643','CPH3475','CPH3669','CPH3682','CPH3731','CPH3776','CPH3785','CPH4125','CPH4275','CPH4299','CPH4395','CPH4473','CPH4987','CPH5286','CPH5841','CPH5947','CPH6178','CPH6244','CPH6271','CPH6316','CPH6519','CPH6528','CPH6697','CPH7338','CPH7364','CPH7382','CPH7532','CPH7577','CPH7948','CPH7991','CPH8153','CPH8346','CPH8347','CPH8363','CPH8393','CPH8467','CPH8472','CPH8534','CPH8686','CPH8893','CPH9177','CPH9226','CPH9659','CPH9667','CPH9716','CPH9763','CPH9839','CPH9929','R830','R830S','R833T','R9','R9 Plus','R9km','R9s','R9s Plus','R9t','R9tm','Real','Reno','Reno 10','Reno 10 5G','Reno 10 Pro 5G','Reno 10 Pro+ 5G','Reno 10X','Reno 10X Zoom','Reno 2','Reno 2F','Reno 2Z','Reno 3','Reno 3 5G','Reno 3 Lite','Reno 3 Pro','Reno 3A','Reno 4 4G','Reno 4 5G','Reno 4 Lite','Reno 4 Pro 4G','Reno 4 Pro 5G','Reno 4 SE 5G','Reno 4F','Reno 4Z 5G','Reno 5','Reno 5 5G','Reno 5 Lite','Reno 5 Pro 5G','Reno 5 Pro Plus 5G','Reno 5A','Reno 5F','Reno 5G','Reno 5K','Reno 5K 5G','Reno 5Z','Reno 6','Reno 6 Pro','Reno 6 Pro 5G','Reno 6 Pro Plus','Reno 6 Z 5G','Reno 7','Reno 7 Pro','Reno 7 SE','Reno 7A','Reno 7Z','Reno 8','Reno 8 Pro','Reno 8 Pro+','Reno 8 Z','Reno 8T','Reno 9'])
-    ual2 = f"[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbrv)};FBDM/FBDM/{{density={density},width={width},height={height}}};FBLC/en_US;FBRV/235412020;FBCR/airtel;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/{str(model)};FBSV/9;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
-    user = random.choice([ual,ual1,ual2])
-    uaxx =  '[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';' + user
-    return uaxx
+    return f'''Mozilla/5.0 (Linux; Android {version}; {model} Build/{build}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{ver2}.0.{ver}.8 Mobile Safari/537.36'''
