@@ -1,1 +1,2 @@
-"[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748118;FBDM/{density=4.0,width=2560,height=1440};FBLC/en_US;FBCR/3;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G920F;FBSV/5.1.1;nullFBCA/armeabi-v7a:armeabi;]"
+realmi = random.choice(["RMP2107","RMX3770","RMX2176","RMX3939","RMX3868"])
+ua ="[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748118;FBDM/{density=4.0,width=2560,height=1440};FBLC/en_US;FBCR/3;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/"+realmi+";FBSV/5.1.1;nullFBCA/armeabi-v7a:armeabi;]"
