@@ -1,1 +1,4 @@
-
+def R1():
+    END =  '[FBAN/Orca-Android;FBAV/196.0.0.29.99;FBBV/135374479;[FBAN/Orca-Android;FBAV/196.0.0.29.99;FBPN/com.facebook.orca;FBLC/th_TH;FBBV/135374479;FBCR/AIS;FBMF/samsung;FBBD/samsung;FBDV/SM-A720F;FBSV/8.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=1920};FB_FW/1;]'
+    ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(kkkkki)} Build/R16NW.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
+    return ua
