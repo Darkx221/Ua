@@ -1,13 +1,2 @@
-def useragent_control():
-    U_V1 = f"[FBAN/FB4A;FBAV/272.0.0.50.125;FBBV/216845518;FBDM/{density=3.0,width=1080,height=2076};FBLC/en_US;FBRV/217590984;FBCR/AT&amp-T;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G965U;FBSV/8.0.0;FBOP/19;FBCA/armeabi-v7a:armeabi;]"
-    U_V2 = f"[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748118;FBDM/{density=3.0,width=1794,height=1080};FBLC/en_GB;FBCR/O2 - UK;FBMF/HTC;FBBD/htc;FBPN/com.facebook.katana;FBDV/HTC One_M8;FBSV/5.0.1;nullFBCA/armeabi-v7a:armeabi;]"
-    U_V3 = f"[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748118;FBDM/{density=3.0,width=1794,height=1080};FBLC/en_GB;FBCR/O2-IRL;FBMF/HTC;FBBD/htc;FBPN/com.facebook.katana;FBDV/HTC One_M8;FBSV/5.0.1;nullFBCA/armeabi-v7a:armeabi;]"
-    U_V4 = f"[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748118;FBDM/{density=3.0,width=1794,height=1080};FBLC/en_GB;FBCR/vodafone IE;FBMF/HTC;FBBD/htc;FBPN/com.facebook.katana;FBDV/HTC One M8s;FBSV/5.0.2;nullFBCA/armeabi-v7a:armeabi;]"
-    U_V5 = f"[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748118;FBDM/{density=3.0,width=1794,height=1080};FBLC/en_US;FBCR/3 IRL;FBMF/Sony;FBBD/Sony;FBPN/com.facebook.katana;FBDV/D6603;FBSV/5.1.1;nullFBCA/armeabi-v7a:armeabi;]"
-    U_V6 = f"[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748118;FBDM/{density=3.0,width=1920,height=1080};FBLC/en_GB;FBCR/vodafone IE;FBMF/Vodafone;FBBD/Vodafone;FBPN/com.facebook.katana;FBDV/Vodafone Smart ultra 6;FBSV/5.1.1;nullFBCA/armeabi-v7a:armeabi;]"
-    U_V7 = f"[FBAN/Orca-Android;FBAV/241.0.0.17.116;FBPN/com.facebook.orca;FBLC/th_TH;FBBV/182747440;FBCR/TRUE-H;FBMF/OPPO;FBBD/OPPO;FBDV/CPH1909;FBSV/8.1.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=1424,height=720};FB_FW/1;] FBBK/1"
-    U_V8 = f"[FBAN/Orca-Android;FBAV/454.0.0.37.109;FBPN/com.facebook.orca;FBLC/en_US;FBBV/588686349;FBCR/NTA;FBMF/INFINIX;FBBD/Infinix;FBDV/Infinix X669;FBSV/12;FBCA/arm64-v8a:null;FBDM/{density=2.0,width=720,height=1444};FB_FW/1;]"
-    U_V9 = f"[FBAN/Orca-Android;FBAV/242.0.0.15.119;FBPN/com.facebook.orca;FBLC/en_PH;FBBV/184324652;FBCR/TM;FBMF/samsung;FBBD/samsung;FBDV/SM-A205GN;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=1.75,width=720,height=1423};FB_FW/1;]"
-    U_V10 = f"[FBAN/Orca-Android;FBAV/130.0.0.15.89;FBPN/com.facebook.orca;FBLC/sv_SE;FBBV/67467545;FBCR/S COMVIQ;FBMF/samsung;FBBD/samsung;FBDV/GT-I9505;FBSV/5.0.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=1920};FB_FW/1;]"
-    A_VALL = random.choice([U_V1, U_V2, U_V3, U_V4, U_V5, U_V6, U_V7, U_V8, U_V9, U_V10])
-    return A_VALL   
+ U_V1 = "[FBAN/FB4A;FBAV/272.0.0.50.125;FBBV/216845518;FBDM/{density=3.0,width=1080,height=2076};FBLC/en_US;FBRV/217590984;FBCR/AT&amp-T;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G965U;FBSV/8.0.0;FBOP/19;FBCA/armeabi-v7a:armeabi;]"
+    
