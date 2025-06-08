@@ -1,1 +1,3 @@
-ua="[FBAN/Orca-Android;FBAV/377.0.0.13.101;FBPN/com.facebook.orca;FBLC/en_US;FBBV/396116327;FBCR/MTN;FBMF/INFINIX;FBBD/Infinix;FBDV/Infinix X669;FBSV/12;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1444};FB_FW/1;]"
+def sexxy():
+	ua = f"[Dalvik/2.1.0 (Linux; U; Android 8.1.0; W-K200 Build/O11019) [FBAN/EMA;UNITY_PACKAGE/1549;FBBV/234444154;FBAV/209.0.0.5.119;FBDV/W-K200;FBLC/vi_VN;FBOP/20;FBNG/3G;FBCQ/UNKNOWN;FBMNT/METERED]"
+	return ua
